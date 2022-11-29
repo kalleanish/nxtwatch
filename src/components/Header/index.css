@@ -1,0 +1,89 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  height: 35px;
+  width: 150px;
+  margin: 20px;
+  margin-left: 50px;
+}
+.profile-logo {
+  height: 40px;
+  width: 40px;
+  margin: 20px;
+}
+.logout-button-light {
+  border: solid #3b82f6 1px;
+  color: #3b82f6;
+  height: 36px;
+  width: 100px;
+  background-color: transparent;
+  margin: 20px 20px 20px 0;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+.logout-button-dark {
+  cursor: pointer;
+  border: solid #ffffff 1px;
+  color: #ffffff;
+  height: 36px;
+  width: 100px;
+  background-color: transparent;
+  margin: 20px 20px 20px 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+.icons-header {
+  height: 30px;
+  width: 30px;
+}
+.dark-back {
+  background-color: #181818;
+}
+.white {
+  color: #ffffff;
+}
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.popup-container {
+  background-color: #ffffff;
+  height: 200px;
+  width: 350px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #00306e;
+  font-weight: 500;
+  font-size: 18px;
+}
+.btn {
+  height: 40px;
+  width: 100px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.cancel-button {
+  background-color: transparent;
+  border: solid #cbd5e1 1px;
+  color: #cbd5e1;
+}
+.confirm-button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+}
+.darkTheme {
+  background-color: #212121;
+  color: #ffffff;
+}
